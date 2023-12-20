@@ -1,41 +1,36 @@
 h1{
 	text-align: center;
-	font-family: 'Oswald', sans-serif;
-	color: dodgerblue;
+	font-family: 'Roboto', sans-serif;
 	font-size: 40px;
 	font-weight: 700;
-	}
-
-.photo-grid1 {
-	justify-content: space-evenly;
-	padding:5px;
-	margin: 5px;
-	display:flex;
-	flex-wrap: wrap;
 }
 
-.photo-grid2 {
-	justify-content: space-evenly;
-	padding: 5px;
-	margin: 5px;
-	display:flex;
-	flex-wrap: wrap;
+.byline{
+	text-align: center;
+	font-size: 24px;
 }
 
-.photo-grid3 {
-	justify-content: space-evenly;
-	padding: 5px;
-	margin: 5px;
-	display:flex;
-	flex-wrap: wrap;
+.article-body{
+	text-align: center;
+	font-size: 16px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-weight: 100;
 }
 
 img {
+	max-height: 400px;
 	margin-left: auto;	
 	margin-right: auto;
-	max-height: 300px;
-	max-width: 300px;
-	padding: 4px;
+	max-height: auto;
+	max-width: auto;
+	padding: 0px;
+	display: table;
+	margin-bottom: 0px;
+	}
+
+.photo-text{
+	font-size: 14px;
+	text-align: center;
+
 }
-
-
